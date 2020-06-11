@@ -1,8 +1,7 @@
 import socket, time
 from threading import Thread
 
-#HOST = input('Input host address: ')
-HOST = 'ts.steadyboat.ru'
+HOST = input('Input host address: ')
 PORT = 8000
 BUFSIZE = 1024
 ADDR = (HOST, PORT)
